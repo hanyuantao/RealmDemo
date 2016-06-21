@@ -1,0 +1,6 @@
+#include "Pods-Realm.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Realm" "${PODS_ROOT}/BuildHeaders/Realm/Realm" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Realm" "${PODS_ROOT}/Headers/Realm/Realm"
+LIBRARY_SEARCH_PATHS = ${PODS_REALM_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_REALM_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
